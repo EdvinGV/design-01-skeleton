@@ -1,0 +1,34 @@
+body {
+    box-sizing: border-box;
+    display: flex;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+main {
+    display: flex;
+    background-color: brown;
+    width: 800px;
+    margin-left: calc(50% - 400px);
+
+}
+
+.mainblock {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.background {
+    background-image: url(./img/paper-narrow-cut.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.text {
+    width: 40%
+}
+
+.skeleton {
+    width: 50%;
+}

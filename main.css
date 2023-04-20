@@ -1,14 +1,26 @@
-body {
+body * {
+    
+    color: white;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body  {
+    background-color: rgb(117,87,160);
     box-sizing: border-box;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 main {
     display: flex;
-    background-color: brown;
-    width: 800px;
-    margin-left: calc(50% - 400px);
+    
+    width: 900px;
+    
+    justify-content: center;
 
 }
 
@@ -16,19 +28,70 @@ main {
     width: 100%;
     display: flex;
     justify-content: space-between;
-
+    align-items: center;
+    
 }
 
 .background {
     background-image: url(./img/paper-narrow-cut.png);
     background-repeat: no-repeat;
     background-size: contain;
+   
 }
 
 .text {
-    width: 40%
-}
 
+    margin-left: 30px;
+   width: 40%;
+
+   padding: 40px;
+   align-items: center;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   
+   flex-wrap: wrap;
+   
+}
+.text *{
+    
+    margin: 12px;
+  
+}
 .skeleton {
     width: 50%;
+}
+h1{
+    font-size: 80px;
+    margin: 0;
+}
+
+.orange{
+    font-weight: bold;
+    color:rgb(246,147,30) ;
+    font-size: 20px;
+}
+.mid{
+    font-size: 20px;
+}
+.text .btn{
+width: 200px;
+height: 60px;
+padding: 20px;
+    font-weight: bold;
+    text-decoration: none;
+   text-align: center;
+    background-color: rgb(246,147,30);
+    transition: 0.2s;
+    margin-bottom: 40px;
+   
+    }
+.btn:hover{
+    color: rgb(246,147,30);
+    font-size: 20px;
+    border: 2px solid white;
+    background-color:rgba(246, 149, 30, 0);
+    transform: rotate(20deg);
+    transition: 0.1s;
+    
 }
